@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "name": "Shorts2Video",
+  "description": "Convert shorts to normar videos chrome extension",
+  "version": "0.1",
+  "author": "Avi R",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "declarativeContent",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://*.youtube.com/"
+  ],
+  "action": {
+    "default_icon": "images/icon32.png",
+    "icons": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "default_title": "tubeSeek",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.youtube.com/*"
+      ],
+      "css": [
+        "css/transform.css"
+      ],
+      "js": [
+        "js/popup.js"
+      ]
+    }
+  ]
+}
