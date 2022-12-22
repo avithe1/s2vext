@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     const baseURL = "https://shorts2video.tubeseek.in/"
+    //const baseURL = "http://localhost:3000/"
     let finalURL = ""
     let yturl = ""
 
@@ -83,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function opentubeSeekAnyway() {
-        chrome.tabs.create({ active: true, url: "https://shorts2video.tubeseek.in" });
+        chrome.tabs.create({ active: true, url: baseURL });
     }
 
 });
