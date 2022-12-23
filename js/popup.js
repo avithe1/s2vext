@@ -29,13 +29,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (type === "playlist") {
             let message = "✅ You can view this Youtube SHORT as a normal video."
-            let message2 = "💡 The SHORT should be public and NOT private."
+            let message2 = "."
 
             document.getElementById("isytp").innerHTML = message
             document.getElementById("isytp2").innerHTML = message2
         } else {
             let message = "✅ You can view this Youtube SHORT as a normal video."
-            let message2 = "💡 The SHORT should be public and NOT private."
+            let message2 = ""
 
             document.getElementById("isytp").innerHTML = message
             document.getElementById("isytp2").innerHTML = message2
@@ -68,10 +68,10 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         } else {
             if (domain === "shorts2video.tubeseek.in") {
-                noYoutubeElements("👋&nbsp;&nbsp;tubeSeek extension works on YouTube site.", "Click this extension when you want to see a Youtube Short as a full Video.")
+                noYoutubeElements("👋&nbsp;&nbsp;Shorts2Video extension works on YouTube site.", "Click this extension when you want to see a Youtube Short as a full Video.")
                 document.getElementById("tubeSeekBtn2").style.display = "none"
             } else {
-                noYoutubeElements("🔍&nbsp;&nbsp;Nothing here. tubeSeek extension works on Youtube site.", "Click this extension when you want to see a Youtube Short as a full Video.")
+                noYoutubeElements("🔍&nbsp;&nbsp;Nothing here. Shorts2Video extension works on Youtube site.", "Click this extension when you want to see a Youtube Short as a full Video.")
                 document.getElementById("tubeSeekBtn2").innerHTML = "Shorts 2 Video"
             }
         }

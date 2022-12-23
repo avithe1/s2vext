@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Shorts2Video",
-  "description": "Convert shorts to normar videos chrome extension",
-  "version": "0.1",
+  "description": "Convert shorts to normal videos chrome extension",
+  "version": "0.2",
   "author": "Avi R",
   "background": {
     "service_worker": "background.js"
