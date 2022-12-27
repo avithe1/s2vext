@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Shorts2Video",
+  "name": "Shorts2Video : Youtube shorts to normal video",
   "description": "Convert shorts to normal videos chrome extension",
   "version": "0.2",
   "author": "Avi R",
